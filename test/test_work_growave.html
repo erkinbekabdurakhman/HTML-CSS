@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GW Test Work</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .slider__head {
+            text-transform: uppercase;
+            text-align: center;
+        }
+        .slider__items {
+            display: flex;
+        }
+        .slider__item {
+            margin: 0;
+        }
+        .slider__img {
+            width: 400px;
+            height: 400px;
+        }
+    </style>
+</head>
+<body>
+    <!--
+        Здесь должна быть секция новостей.
+        Содержание секции:
+            Заголовок
+            Список новостей:
+                Карточка новостей:
+                    Картинка
+                    Заголовок
+                    Описание
+                    Автор
+                    Аватарка автора
+        Сверстать и написать стили используя следующие документации:
+            https://ru.bem.info/methodology/quick-start/
+            https://developer.mozilla.org/ru/docs/HTML/HTML5
+        Дизайн на ваш выбор (визуальная составляющая тоже оценивается)
+        Использование сервиса: https://jsonplaceholder.typicode.com/ принесёт вам дополнительное преимущество при оценке ТЗ
+    -->
+
+    <section class="stn slider"> <!-- Сделать так чтобы слайдер заработал -->
+        <div class="container">
+            <h2 class="slider__head">Slider</h2>
+            <div class="slider__items">
+                <figure class="slider__item">
+                    <img src="https://picsum.photos/800/800?random=1" alt="test image1" class="slider__img">
+                </figure>
+                <figure class="slider__item">
+                    <img src="https://picsum.photos/800/800?random=2" alt="test image2" class="slider__img">
+                </figure>
+                <figure class="slider__item">
+                    <img src="https://picsum.photos/800/800?random=3" alt="test image3" class="slider__img">
+                </figure>
+                <figure class="slider__item">
+                    <img src="https://picsum.photos/800/800?random=4" alt="test image4" class="slider__img">
+                </figure>
+                <figure class="slider__item">
+                    <img src="https://picsum.photos/800/800?random=5" alt="test image5" class="slider__img">
+                </figure>
+                <figure class="slider__item">
+                    <img src="https://picsum.photos/800/800?random=6" alt="test image6" class="slider__img">
+                </figure>
+            </div>
+        </div>
+    </section>
+
+    <!-- Тестовое задание расчитано на полтора часа. -->
+</body>
+</html>
