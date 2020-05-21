@@ -1,0 +1,18 @@
+<svg width="478" height="168.19614" xmlns="http://www.w3.org/2000/svg">
+ <title>reading</title>
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="170.19614" width="480" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path stroke="null" transform="rotate(-0.7600832581520081 239.50000000000063,76.69612121582084) " id="svg_13" fill="#ff5722" d="m453.978651,88.230426c0,-16.380554 -27.788637,-29.659604 -62.067774,-29.659604c-0.67847,0 -1.349643,0.014077 -2.022867,0.024419c-10.340758,-26.643455 -59.223599,-46.820647 -117.974815,-46.820647c-49.986662,0 -92.828316,14.606838 -110.868942,35.374221a157.205998,132.134485 0 0 0 -40.852283,-4.396439c-52.561278,0 -95.170576,20.361201 -95.170576,45.478022c0,22.815731 35.162054,41.703762 81.002528,44.973759c33.310582,5.119183 85.342516,8.413485 143.82072,8.413485c99.280243,0 171.924564,-15.918049 173.746488,-27.883059c18.191667,-5.171125 30.38752,-14.65516 30.38752,-25.504157z"/>
+  <text stroke="null" transform="matrix(31.53061294555664,0,0,2.7077510356903076,3668.9210025668144,126.9606160596013) " xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="11" id="svg_46" y="-64.401932" x="-120.166667" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#000000">u</text>
+  <polyline stroke="null" stroke-linecap="round" id="svg_48" points="283.83333333333337,234.5980682373047 283.83333333333337,234.5980682373047 " stroke-opacity="null" stroke-width="0" fill="none"/>
+  <text font-weight="bold" stroke="null" transform="matrix(5.078678131103516,0,0,3.7464239597320557,-888.450809776783,-245.11833840608597) " xml:space="preserve" text-anchor="start" font-family="'Times New Roman', Times, serif" font-size="18" id="svg_50" y="98.598068" x="217.833333" fill-opacity="0" stroke-width="0" fill="#000000">undoluk</text>
+  <text xml:space="preserve" text-anchor="start" font-family="'Times New Roman', Times, serif" font-size="18" id="svg_51" y="100.598068" x="239.833333" fill-opacity="0" stroke-opacity="null" stroke-width="0" stroke="null" fill="#000000">s</text>
+  <text stroke="null" transform="rotate(-0.4380345642566681 235.5841522216779,85.21553039550778) matrix(2.1278311468610136,0,0,1.400565347195128,-187.98236079473193,-94.48611683429928) " font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'Times New Roman', Times, serif" font-size="37" id="svg_52" y="140.88858" x="118.40122" stroke-opacity="null" stroke-width="0" fill="#ffffff">Kundoluk</text>
+  <text stroke="null" transform="matrix(1.4997211694717407,0,0,0.9516433477401733,-67.37646830268204,-0.5681906640529633) " xml:space="preserve" text-anchor="start" font-family="'Times New Roman', Times, serif" font-size="37" id="svg_53" y="21.598083" x="134.833333" stroke-width="0" fill="#ffffff"/>
+ </g>
+</svg>
