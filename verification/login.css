@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #1B1A34;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    width: 100%;
+    height: auto;
+}
+.login {
+    width: 50%;
+    margin:  2rem auto;
+    border-radius: 15px;
+    width: 325px;
+    height: 552px;
+    background-color: #fff;
+}
+.login__header {
+    text-align: center;
+    align-items: center;
+}
+.login__header h3 {
+    padding-top: 4rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+.login__header a {
+    text-decoration: none;
+    color: #505DD1;
+    font-size: 16px;
+}
+.btn-group {
+    margin-top: 1rem;
+}
+.btn-inline {
+    padding-left: 2rem;
+    padding-top: 1rem;
+}
+.btn-inline p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.btn-inline input {
+    width: 240px;
+    height: 32px;
+    font-size: 16px;
+    border-radius: 10px;
+    outline: none;
+    border: 2px #E5E5E5 solid;
+}
+.btn-group button {
+    width: 250px;
+    height: 34px;
+    border-radius: 10px;
+    outline: none;
+    color: #fff;
+    background: #1B1A34;
+    outline: none;
+    border: none;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+.login__footer {
+    margin-top: 2rem;
+}
+.login__footer a {
+    text-decoration: none;
+    padding: 2rem;
+}
+.footer-check, a  {
+    padding-left: 2rem;
+}
+.footer-copy {
+    padding-top: 3rem;
+    padding-left: 2rem;
+    text-align: center;
+}
+.footer-copy small {
+    margin-top: 3rem;
+}

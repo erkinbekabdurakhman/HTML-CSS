@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: sans-serif;
+    background-color: #00d4ff;
+}
+.container {
+    position: relative;
+    width: 400px;
+    height: 520px;
+    background: #fff;
+    padding: 60px 40px;
+}
+header {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #00d4ff;
+}
+.input-field, form, .button {
+    margin: 25px;
+    position: relative;
+    height: 50px;
+    width: 90%;
+}
+.input-field input {
+    height: 100%;
+    width: 100%;
+    border: 1px solid silver;
+    padding-left: 15px;
+    outline: none;
+    font-size: 19px;
+    transition: .4s;
+    margin: 25px;
+}
+input:focus {
+    border: 1px solid #1DA1F2;
+}
+.input-field label {
+    pointer-events: none;
+    color: grey;
+    font-size: 18px;
+    float: left;
+    transition: .4s;
+    margin-top: 25px;
+    padding-bottom: 25px;
+}
+.form .button {
+    margin-top: 30px;
+    overflow: hidden;
+    z-index: 111;
+}
+.button button {
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    border: none;
+    background: #1DA1F2;
+    outline: none;
+    color: #000;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .4s;
+    font-family: sans-serif;
+}
+.button button:hover {
+    background: #2c5975;
+    color: #fff;
+}
+.bottom-link {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: 25px;
+}
+.bottom-link a {
+    text-decoration: none;
+    font-size: 13px;
+    color:#000;
+}
+.bottom-link .active{
+    color: #1DA1F2;
+}
+
+@media screen and (max-width: 667px) {
+    .container {
+        position: relative;
+        width: 320px;
+        height: 520px;
+        background: #fff;
+        padding: 10px 10px;
+    }
+    .input-field, form, .button {
+        margin: 15px;
+        position: relative;
+        height: 50px;
+        width: 90%;
+    }
+    .input-field input {
+        height: 100%;
+        width: 100%;
+        border: 1px solid silver;
+        /* padding-left: 10px; */
+        outline: none;
+        font-size: 19px;
+        transition: .4s;
+    }
+    .input-field label {
+        position: absolute;
+        top: 50%;
+        left: 5px;
+        transform: translateY(-50%);
+        pointer-events: none;
+        color: grey;
+        font-size: 18px;
+        transition: .4s;
+    }
+    .btn-box {
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        margin: 15px;
+    }
+    .bottom-link {
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        margin: 15px;
+    }
+    .bottom-link a {
+        text-decoration: none;
+        font-size: 11px;
+        color:#000;
+    }
+}

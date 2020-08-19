@@ -33,7 +33,6 @@ margin: 0;
 padding: 25 0 10px;
 text-align: center;
 font-size:22px;
-
 }
 
 .Login-box p {
@@ -44,8 +43,6 @@ font-weight: bold;
 .Login-box input {
 width: 90%;
 margin-bottom: 30px;
-
-
 }
 .Login-box input[type="text"], input[type="password"]{
 border: none;
@@ -61,7 +58,7 @@ border: none;
 outline: none;
 height: 40px;
 background: #fc2525;
-font-size:18px;
+font-size: 18px;
 border-radius: 20px;
 }
 .Login-box input[type="submit"]:hover{
